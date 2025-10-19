@@ -4,7 +4,7 @@ public enum RegexPattern {
     CUSTOM_REGEX_PATTEN("//\\D\\\\n"),
     DEFAULT_REGEX_PATTEN(",|:");
 
-    private String regexPattern;
+    private final String regexPattern;
 
     RegexPattern(String regexPattern) {
         this.regexPattern = regexPattern;

@@ -29,7 +29,7 @@ public class numberValidation {
         try {
             return Integer.parseInt(number);
         } catch (NumberFormatException e) {
-            throw new IllegalArgumentException(number + INPUT_FORMAT_ERROR.getMessage());
+            throw new IllegalArgumentException(INPUT_FORMAT_ERROR.getMessage());
         }
     }
 

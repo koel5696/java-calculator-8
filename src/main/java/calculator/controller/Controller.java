@@ -22,7 +22,7 @@ public class Controller {
         }
 
         if (inputWord.charAt(FIRST_LETTER) == CUSTOM_SETTING_PREFIX && inputWord.length() > CUSTOM_SETTING_LENGTH) {
-            return CustomWordSplit.customSplit(inputWord);
+            return CustomWordSplit.customSplitService(inputWord);
         }
         if (Character.isDigit(inputWord.charAt(FIRST_LETTER))) {
             return DefaultWordSplit.defaultSplit(inputWord);

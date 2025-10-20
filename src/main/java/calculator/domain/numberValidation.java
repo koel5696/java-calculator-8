@@ -4,7 +4,7 @@ import static calculator.constants.ErrorMessage.INPUT_FORMAT_ERROR;
 import static calculator.constants.ErrorMessage.NEGATIVE_NUMBER_ERROR;
 import static calculator.constants.ErrorMessage.ZERO_START_NUMBER_ERROR;
 
-public class numberValidation {
+public class NumberValidation {
     private static final char ZERO = '0';
     private static final int START_INDEX = 0;
     private static final int NUMBER_LENGTH = 2;

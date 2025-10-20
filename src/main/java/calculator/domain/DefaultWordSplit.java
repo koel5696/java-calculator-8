@@ -2,7 +2,7 @@ package calculator.domain;
 
 import static calculator.constants.RegexPattern.DEFAULT_REGEX_PATTEN;
 import static calculator.domain.NumberSum.sum;
-import static calculator.domain.numberValidation.parseIntService;
+import static calculator.domain.NumberValidation.parseIntService;
 
 public class DefaultWordSplit {
 
